@@ -260,13 +260,19 @@ text-decoration: none;
 }
 .header{
 display: flex;
-justify-content: space-evenly;
+justify-content: center;
 align-items: baseline;
 }
-.painButtons{
-display:flex;
-align-content: space-around;
-list-style-type:none;
+nav{
+    display:flex;
+    justify-content:space-evenly;
+    width:38%;
+}
+.links{
+    display:flex;
+    justify-content: space-between;
+    font-weight: bold;
+    width:75%
 }
 
 
