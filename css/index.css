@@ -265,20 +265,15 @@ align-items: baseline;
 }
 .painButtons{
 display:flex;
+align-content: space-around;
+list-style-type:none;
 }
-.home{
-padding-right: 35rem;
-}
-.about{
-margin-left: 1rem;
-padding-right: 8rem;
-}
-.blog{
-padding-right: 10rem;
-}
+
+
 .coolPic{
 display:flex;
 justify-content: center;
+padding-top:3rem;
 }
 .text-container{
 font-weight: bold;
